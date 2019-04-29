@@ -8,8 +8,8 @@ Jugador jugador;
 Ball ball;
 
 void setup() {
-  bg = loadImage("/home/surister/Downloads/img.jpg");
-  plataforma = loadImage("/home/surister/Downloads/platform.png");
+  bg = loadImage("img.jpg");
+  plataforma = loadImage("platform.png");
   size(700, 700);
   jugador = new Jugador();
   ball = new Ball();
